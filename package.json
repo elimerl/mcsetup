@@ -1,0 +1,21 @@
+{
+  "name": "mcsetup",
+  "version": "1.0.0",
+  "description": "A setup script for Minecraft servers.",
+  "main": "index.js",
+  "author": "elimerl",
+  "license": "MIT",
+  "dependencies": {
+    "@types/command-exists": "^1.2.0",
+    "@types/prompts": "^2.0.9",
+    "cli-cursor": "^3.1.0",
+    "command-exists": "^1.2.9",
+    "execa": "^5.0.0",
+    "got": "^11.8.1",
+    "java-properties": "^1.0.2",
+    "prompts": "^2.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
