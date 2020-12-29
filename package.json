@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "elimerl",
   "license": "MIT",
+  "scripts": {
+    "build": "mkdir -p dist && tsc && browserify dist/index.js --node | terser --compress --mangle -o dist/minified.js"
+  },
   "dependencies": {
     "@types/command-exists": "^1.2.0",
     "@types/prompts": "^2.0.9",
@@ -16,6 +19,8 @@
     "prompts": "^2.4.0"
   },
   "devDependencies": {
+    "browserify": "^17.0.0",
+    "terser": "^5.5.1",
     "typescript": "^4.1.3"
   }
 }

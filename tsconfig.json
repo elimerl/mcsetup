@@ -1,3 +1,4 @@
 {
-  "compilerOptions": { "esModuleInterop": true }
+  "compilerOptions": { "esModuleInterop": true, "outDir": "dist" },
+  "include": ["index.ts"]
 }
